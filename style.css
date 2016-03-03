@@ -1,0 +1,74 @@
+* {
+  font-family: Helvetica,sans-serif;
+  width: 100vw;
+}
+
+.container {
+  /*widows: ;: 1100px;*/
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main_title {
+  text-align: center;
+  font-size: 45px;
+}
+
+.players {
+  float: left;
+  width: 27vw;
+  height: auto;
+  text-align: center;
+  font-size: 30px;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 5px;
+  margin-right: 15px;
+  background-color: #c2cacd;
+  color: #303a3c;
+}
+
+.score {
+  float: left;
+  width: 27vw;
+  height: auto;
+  text-align: center;
+  font-size: 30px;
+  border: 2px solid purple;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 5px;
+  margin-right: 15px;
+  background-color: #c2cacd;
+  color: #303a3c;
+}
+
+#playTTT {
+  width: 85vw;
+  height: 35px;
+  font-size:25px;
+  margin-left: 5px;
+  background-color:#0080ff;
+  color: white;
+}
+
+.box {
+  width: 22vw;
+  height: 140px;
+  border: 1px solid black;
+  display:flex;
+  float: left;
+  margin-right: 50px;
+  margin-left: 40px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #f0f0f0;
+}
+
+.box:hover {
+  background-color: #dadada;
+  outline: 3px solid black;
+  outline-offset: 1px;
+  margin-top: 25px;
+}
