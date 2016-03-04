@@ -1,5 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto|Nunito);
+
 * {
-  font-family: Helvetica,sans-serif;
+  font-family: 'Nunito';
   width: 58vw;
   overflow: auto;
 }
@@ -15,6 +17,7 @@
   text-align: center;
   font-size: 3em;
   position: relative;
+  font-family: 'Roboto';
 }
 
 .players {
@@ -30,6 +33,7 @@
   margin-right: 15px;
   background-color: #c2cacd;
   color: #303a3c;
+  content:"\f007";
 }
 
 .score {
