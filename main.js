@@ -1,8 +1,15 @@
 var gameRunning = false;
 var turn = 0;
 var squaresFilled = 0;
-var kashu;
-var sweetu;
+var s1;
+var s2;
+var s3;
+var s4;
+var s5;
+var s6;
+var s7;
+var s8;
+var s9;
 
 var playButton = document.querySelector("#playTTT");
 playButton.addEventListener("click", function (){
@@ -21,6 +28,6 @@ var boxOne = document.querySelector("#boxOne");
 boxOne.addEventListener("mouseover", function () {
   this.innerHTML = "Hello World";
   for (var i = 0; i < 1; i++) {
-    this.innerHTML = 
+    this.innerHTML = "";
   }
 });
