@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Tic Tac Toe</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  </head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div id="header">
+            <h1 class="main_title">Tic Tac Toe</h1>
+        </div>
+        <div id="topContainer">
+            <div class="players" id="playerOne">Player X</div>
+            <div class="score"><h2 id="scoreOne">0</h2>&nbsp;&nbsp;&nbsp;||&nbsp;Score&nbsp;||&nbsp;&nbsp;&nbsp;<h2 id="scoreTwo">0</h2></div>
+            <div class="players" id="playerTwo">Player 0</div>
+        </div>
+        <div class="status">
+        </div>
+        <div class="buttons">
+            <form name="simpleForm">
+                <input class="btn" type="button" name="s1" value="" onclick=changeBox(this)>
+                <input class="btn" type="button" name="s2" value="" onclick=changeBox(this)>
+                <input class="btn" type="button" name="s3" value="" onclick=changeBox(this)>
+                <br/>
+                <input class="btn" type="button" name="s4" value="" onclick=changeBox(this)>
+                <input class="btn btn5" type="button" name="s5" value="" onclick=changeBox(this)>
+                <input class="btn" type="button" name="s6" value="" onclick=changeBox(this)>
+                <br/>
+                <input class="btn" type="button" name="s7" value="" onclick=changeBox(this)>
+                <input class="btn" type="button" name="s8" value="" onclick=changeBox(this)>
+                <input class="btn" type="button" name="s9" value="" onclick=changeBox(this)>
+                <br/>
+                <br/>
+            </form>
+        </div>
 
-  <body>
-    <div id="container">
-      <div id="header">
-        <h1 class="main_title">Tic Tac Toe</h1>
-      </div>
-      <div id="topContainer">
-        <div class="players" id="playerOne">Player One &#128697;</div>
-        <div class="score">Score</div>
-        <div class="players" id="playerTwo">Player Two</div>
-      </div>
-      <div class="status">
-
-      </div>
-      <div id="midContainer">
-        <div class="box" id="boxOne"></div>
-        <div class="box" id="boxTwo"></div>
-        <div class="box" id="boxThree"></div>
-        <div class="box" id="boxFour"></div>
-        <div class="box" id="boxFive"></div>
-        <div class="box" id="boxSix"></div>
-        <div class="box" id="boxSeven"></div>
-        <div class="box" id="boxEight"></div>
-        <div class="box" id="boxNine"></div>
-      </div>
-      <div id="bottomContainer">
-        <button type="button" class="btn btn-primary" id="playTTT">PLAY</button>
-      </div>
-
+        <div id="bottomContainer">
+            <button type="button" class="btn btn-primary" id="playTTT" onclick="clearBtn()">START OVER</button>
+        </div>
     </div>
-
-  </body>
-
-  <script type="text/javascript" src="main.js"></script>
-
+    <script type="text/javascript" src="main.js"></script>
+</body>
 </html>

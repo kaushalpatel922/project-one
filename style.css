@@ -1,82 +1,92 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto|Nunito);
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Nunito|Lobster);
 
 * {
-  font-family: 'Nunito';
-  width: 58vw;
-  overflow: auto;
+    box-sizing: border-box;
 }
 
-.container {
-  /*widows: ;: 1100px;*/
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
+body {
+    font-family: 'Nunito';
+    background: #2db2f7;
+    width: 950px;
+    margin: 0 auto;
 }
 
 .main_title {
   text-align: center;
-  font-size: 3em;
+  font-size: 4.5em;
   position: relative;
-  font-family: 'Roboto';
+  font-family: 'lobster';
+  margin-bottom: 20px;
 }
 
 .players {
   float: left;
-  width: 17.5vw;
-  height: auto;
+  width: 250px;
+  height: 80px;
   text-align: center;
-  font-size: 2em;
-  border: 2px solid black;
+  font-size: 3em;
+  border: 3px solid black;
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 5px;
   margin-right: 15px;
-  background-color: #c2cacd;
-  color: #303a3c;
-  content:"\f007";
+  background-color: rgb(22, 22, 45);
+  color: #FF5722;
+  opacity: 0.85;
 }
 
 .score {
   float: left;
-  width: 17.5vw;
-  height: auto;
+  width: 380px;
+  height: 80px;
   text-align: center;
-  font-size: 2em;
-  border: 2px solid purple;
+  font-size: 3em;
+  border: 3px solid black;
   padding-bottom: 10px;
   padding-top: 10px;
   margin: 5px;
   margin-right: 15px;
-  background-color: #c2cacd;
-  color: #303a3c;
+  background-color: #FF5722;
+  color: rgb(22, 22, 45);
+  opacity: 0.85;
+}
+
+#scoreOne, #scoreTwo {
+    display: inline;
+    font-size: 1em;
 }
 
 #playTTT {
-  width: 15vw;
-  height: 9vh;
-  font-size:2em;
-  margin-left: 0.3em;
+  width: 320px;
+  height: 50px;
+  font-size: 25px;
+  margin-left: 300px;
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  background-color:#0080ff;
+  background-color:rgba(255, 47, 0, 0.91);
   color: white;
   cursor: pointer;
 }
 
-.box {
-  width: 18vw;
-  height: 160px;
-  /*width: 320px;
-  height: 320px;*/
+input.btn {
+  width: 190px;
+  height: 140px;
   border-radius: 10%;
-  display:flex;
+  display: flex;
   float: left;
   margin: 0.5em;
   background-color: #f0f0f0;
-
+  color: #FF5722;
+  font-size: 3.5em;
+  font-weight: bold;
+  justify-content: center;
 }
 
-.box:hover {
-  background-color: #343436;
-  cursor:pointer;
+input.btn:hover {
+  background-color: #9bdaf3;
+  cursor: pointer;
+}
+
+.buttons {
+    margin-left: 100px;
 }
