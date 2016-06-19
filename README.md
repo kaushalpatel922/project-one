@@ -2,6 +2,8 @@ Tic Tac Toe
 
 By Kaushal Patel - my attempt of building a first game!
 
+Demo: [Click Here](https://kaushalpatel922.github.io/project-one)
+
 Game Rules:
 
 Tic Tac Toe is a two player game - Player X and Player O. The default is that first player - Player X will make the first move of the game, followed by next move from Player O. At the end of the game, there will be an alert of Player X or Player O. Once there is a win for either player, the score will get updated to the score board above and players keep playing.  However, if there's a tie, it will also alert tie!
